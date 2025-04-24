@@ -1,10 +1,3 @@
-syntax = "proto3";
-
-message TestMessage {
-  string message = 1;
-  int32 id = 2;
-}' > test.proto
-        echo '
 #include <iostream>
 #include "test.pb.h"  // 包含生成的头文件
 
